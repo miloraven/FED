@@ -1,4 +1,4 @@
-## Procesverslag
+## Procesverslag van Milo Raven (500840804)
 ## Dit ben ik
 
 <details open>
@@ -11,7 +11,7 @@
   Rood
 
   #### Je focus:
-  
+  Responsive
  
 </details>
 
