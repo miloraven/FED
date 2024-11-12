@@ -1,4 +1,5 @@
 ## Procesverslag van Milo Raven (500840804)
+<img src="readme-images/foto-van-milo.png" width="375px" alt="Foto van Milo Ravenß">
 ## Dit ben ik
 
 <details open>
