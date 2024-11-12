@@ -1,19 +1,8 @@
-# Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
-
-
-## Jij
+## Procesverslag
+## Dit ben ik
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>Klik hier voor meer informatie</summary>
 
   ### Auteur:
   Milo Raven
@@ -30,15 +19,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Je website
+## Mijn website
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+  <summary>Klik hier voor meer informatie</summary>
 
-  ### Je opdracht:
+  ### Mijn opdracht:
+  Het namaken van de website van de Rijkoverheid.
   https://www.rijksoverheid.nl/
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Homepagina van de Rijksoverheid  
   <img src="readme-images/screenshot-van-homepagina.png" width="375px" alt="Homepagina van de Rijksoverheid">
 
   #### Screenshot(s) van de tweede pagina (small screen):
