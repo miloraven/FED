@@ -5,27 +5,25 @@
   box-sizing:border-box;  
 }
 
-
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text:#000000;
+	--color-background:#FFFFFF;
 }
-
-
-
-
 
 /****************/
 /* JOUW STYLING */
 /****************/
 
 /* jouw code */
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
 
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
