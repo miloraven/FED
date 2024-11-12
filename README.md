@@ -25,15 +25,15 @@
   <summary>Klik hier voor meer informatie</summary>
 
   ### Mijn opdracht:
-  Het namaken van de website van de Rijkoverheid.
+  Het namaken van de website van de Rijkoverheid:
   https://www.rijksoverheid.nl/
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Homepagina van de Rijksoverheid  
+  Homepagina van de Rijksoverheid:
   <img src="readme-images/screenshot-van-homepagina.png" width="375px" alt="Homepagina van de Rijksoverheid">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/screenshot-van-homepagina.png" width="375px" alt="Actueelpagina van de Rijksoverheid">
+  Actueelpagina van de Rijksoverheid:
+  <img src="readme-images/screenshot-van-actueelpagina.png" width="375px" alt="Actueelpagina van de Rijksoverheid">
  
 </details>
 
