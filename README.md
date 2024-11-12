@@ -5,7 +5,7 @@
 ## Dit ben ik
 
 <details open>
-  <summary>Klik hier voor meer informatie</summary>
+  <summary>Klik hier om meer over mij te lezen</summary>
 
   ### Auteur:
   Milo Raven
@@ -21,7 +21,7 @@
 ## Mijn website
 
 <details open>
-  <summary>Klik hier voor meer informatie</summary>
+  <summary>Klik hier om meer te lezen over de opdracht</summary>
 
   ### Mijn opdracht:
   Het namaken van de website van de Rijkoverheid:
@@ -203,14 +203,14 @@
 ## Bronnenlijst
 
 <details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
+  <summary>Klik hierop om alle gebruikte bronnen te bekijken</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
+  1. Bron 1
+  Favicon van het logo van de Rijksoverheid:
+  https://www.radiotherapiegroep.nl/rijksoverheid-logo/
+  2. Bron 2
+  Logo van de Rijksoverheid voor de header met een transparante achtergrond:
+  https://www.rijkshuisstijl.nl/publiek/modules/product/DigitalStyleGuide/default/index.aspx?ItemId=6775
   3. ...
 
 </details>
