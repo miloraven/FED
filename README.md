@@ -1,5 +1,7 @@
 ## Procesverslag van Milo Raven (500840804)
+
 <img src="readme-images/foto-van-milo.png" width="375px" alt="Foto van Milo Ravenß">
+
 ## Dit ben ik
 
 <details open>
@@ -15,10 +17,6 @@
   Responsive
  
 </details>
-
-
-
-
 
 ## Mijn website
 
@@ -38,8 +36,6 @@
  
 </details>
 
-
-
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
@@ -49,8 +45,6 @@
   Lijst met je bevindingen die in de test naar voren kwamen:
 
 </details>
-
-
 
 ## Breakdownschets (week 1)
 
@@ -67,10 +61,6 @@
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
-
-
-
-
 
 ## Voortgang 1 (week 2)
 
