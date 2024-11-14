@@ -43,8 +43,6 @@
 <details>
   <summary>Klik hier om meer te lezen over de eerste toegankelijkheidstest</summary>
 
- ## Toegankelijkheidstest van Rijksoverheid.nl
-
 ### Inleiding
 Ik heb een toegankelijkheidstest uitgevoerd op de website Rijksoverheid.nl. Het doel van de test was om te beoordelen hoe goed de website werkt voor verschillende doelgroepen, zoals mensen die afhankelijk zijn van een screenreader, mensen met kleurenblindheid, en gebruikers die specifieke visuele en bewegingsinstellingen nodig hebben. Daarnaast heb ik de website vergeleken met Tiptopwasenstrijkservice.nl om een breder perspectief te krijgen op toegankelijkheid. In deze README staan mijn bevindingen en aanbevelingen.
 
