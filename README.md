@@ -42,7 +42,15 @@
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  ### Inleiding
+  Toegankelijkheid is essentieel voor websites, vooral als het gaat om publieke diensten zoals Rijksoverheid.nl. Om te testen hoe toegankelijk de website is voor verschillende gebruikers, hebben we verschillende aspecten bekeken, zoals voiceover-functionaliteit, de ervaring voor kleurenblinde gebruikers en hoe de site omgaat met voorkeuren zoals dark mode en reduce motion. Een extra onderdeel was een vergelijking met een andere website op basis van de WCAG-checklist. Dit geeft een breder beeld van de toegankelijkheid van de website.
+
+  ### Voiceovertest
+  De voiceovertest controleert hoe een website wordt voorgelezen door een screenreader. Dit is belangrijk voor blinde en slechtziende gebruikers.
+  De site presteert goed met screenreaders. Koppen zijn goed gestructureerd, waardoor gebruikers eenvoudig kunnen navigeren. ARIA-landmarks, zoals role="main" en role="navigation", zijn toegevoegd en geven context aan verschillende delen van de website. Dit helpt gebruikers om snel naar het hoofdmenu, de hoofdinhoud en andere belangrijke secties te gaan.
+  De meeste links en knoppen hebben duidelijke labels, waardoor het makkelijk is te begrijpen wat er gebeurt bij het klikken. Ook zijn formulieren goed toegankelijk, omdat ze voorzien zijn van correcte labels en duidelijke foutmeldingen.
+  De site is goed bruikbaar voor voiceover-gebruikers, mede door een solide structuur en het gebruik van ARIA-landmarks. Kleine verbeteringen, zoals nóg meer context in foutmeldingen, kunnen de ervaring verder verbeteren.
+
 
 </details>
 
