@@ -10,10 +10,10 @@
   ### Auteur:
   Milo Raven
 
-  #### Je startniveau:
+  ### Je startniveau:
   Rood
 
-  #### Je focus:
+  ### Je focus:
   Responsive
  
 </details>
