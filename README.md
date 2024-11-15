@@ -119,7 +119,9 @@ Door deze verbeteringen kan de website niet alleen voldoen aan de richtlijnen, m
 
 <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-### de hele pagina: 
+### Breakdown van de twee pagina's: 
+
+De breakdown van de twee pagina's:
 
 <img src="readme-images/breakdown-helepagina-een.jpg" width="375px" alt="Breakdownschets van de homepagina van de Rijksoverheid">
 
@@ -129,7 +131,7 @@ Door deze verbeteringen kan de website niet alleen voldoen aan de richtlijnen, m
 
 De breakdown van een dynamisch deel:
 
-<img src="readme-images/dynamisch-scherm-een.jpg" width="375px" alt="Breakdown van een dynamisch deel">
+<img src="readme-images/dynamische-schets-een.png" width="375px" alt="Breakdown van een dynamisch deel">
 
 ### Nog een dynamisch deel: 
 
