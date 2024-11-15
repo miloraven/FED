@@ -58,6 +58,16 @@ De website scoort hoog op toegankelijkheid voor screenreaders. Dankzij de ARIA-l
 ### WCAG checklist
 Ik heb de WCAG-checklist twee keer ingevuld: één keer voor Rijksoverheid.nl en één keer voor Tiptopwasenstrijkservice.nl. Dit gaf me een goed beeld van hoe deze websites presteren op het gebied van toegankelijkheid.
 
+<img src="readme-images/foto-1.jpeg" width="375px" alt="Foto 1">
+
+<img src="readme-images/foto-2.jpeg" width="375px" alt="Foto 2">
+
+<img src="readme-images/foto-3.jpeg" width="375px" alt="Foto 3">
+
+<img src="readme-images/foto-4.jpeg" width="375px" alt="Foto 4">
+
+<img src="readme-images/foto-5.jpeg" width="375px" alt="Foto 5">
+
 Rijksoverheid.nl voldoet aan bijna alle richtlijnen in de checklist. De website heeft een sterke structuur, goed contrast en beschrijvende labels. Daarentegen scoorde Tiptopwasenstrijkservice.nl op veel punten slecht. De website mist een logische koppenstructuur, heeft slecht contrast en gebruikt geen correcte HTML-elementen. Dit benadrukt hoe belangrijk het is om toegankelijkheid vanaf het begin in het ontwerpproces mee te nemen.
 
 ### Kleurenblindtest
