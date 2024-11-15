@@ -5,48 +5,59 @@
 ## Dit ben ik
 
 <details open>
-  <summary>Klik hier om meer over mij te lezen</summary>
 
-  ### Auteur:
-  Milo Raven
+<summary>Klik hier om meer over mij te lezen</summary>
 
-  ### Je startniveau:
-  Rood
+### Auteur:
 
-  ### Je focus:
-  Responsive
- 
+Milo Raven
+
+### Je startniveau:
+
+Rood
+
+### Je focus:
+
+Responsive
+
 </details>
 
 ## Mijn website
 
 <details open>
-  <summary>Klik hier om meer te lezen over de opdracht</summary>
 
-  ### Mijn opdracht:
-  Het namaken van de website van de Rijkoverheid:
-  https://www.rijksoverheid.nl/.
-  #### Screenshot(s) van de eerste pagina (small screen): 
-  Homepagina van de Rijksoverheid:
+<summary>Klik hier om meer te lezen over de opdracht</summary>
 
-  <img src="readme-images/screenshot-van-homepagina.png" width="375px" alt="Homepagina van de Rijksoverheid">
+### Mijn opdracht:
 
-  #### Screenshot(s) van de tweede pagina (small screen):
-  Actueelpagina van de Rijksoverheid:
+Het namaken van de website van de Rijkoverheid: https://www.rijksoverheid.nl/.
 
-  <img src="readme-images/screenshot-van-actueelpagina.png" width="375px" alt="Actueelpagina van de Rijksoverheid">
- 
+#### Screenshot(s) van de eerste pagina (small screen): 
+
+Homepagina van de Rijksoverheid:
+
+<img src="readme-images/screenshot-van-homepagina.png" width="375px" alt="Homepagina van de Rijksoverheid">
+
+#### Screenshot(s) van de tweede pagina (small screen):
+
+Actueelpagina van de Rijksoverheid:
+
+<img src="readme-images/screenshot-van-actueelpagina.png" width="375px" alt="Actueelpagina van de Rijksoverheid">
+
 </details>
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>Klik hier om meer te lezen over de eerste toegankelijkheidstest</summary>
+
+<summary>Klik hier om meer te lezen over de eerste toegankelijkheidstest</summary>
 
 ### Inleiding
+
 Ik heb een toegankelijkheidstest uitgevoerd op de website Rijksoverheid.nl. Het doel van de test was om te beoordelen hoe goed de website werkt voor verschillende doelgroepen, zoals mensen die afhankelijk zijn van een screenreader, mensen met kleurenblindheid, en gebruikers die specifieke visuele en bewegingsinstellingen nodig hebben. Daarnaast heb ik de website vergeleken met Tiptopwasenstrijkservice.nl om een breder perspectief te krijgen op toegankelijkheid. In deze README staan mijn bevindingen en aanbevelingen.
 
 ### Bevindingen van de voiceovertest
+
 Ik heb getest hoe een screenreader de website voorleest. Hierbij keek ik naar de structuur, navigatie en labels van interactieve elementen.
 
 De koppenstructuur van de website is duidelijk en logisch. De belangrijkste onderdelen, zoals "Veel bekeken" en het menu, worden correct aangekondigd door de screenreader. Door het gebruik van ARIA-landmarks, zoals `role="main"` en `role="navigation"`, kan ik eenvoudig naar verschillende secties springen, zoals de navigatiebalk en de hoofdinhoud.
@@ -56,6 +67,7 @@ De knoppen en links hebben duidelijke en beschrijvende labels, bijvoorbeeld "Bed
 De website scoort hoog op toegankelijkheid voor screenreaders. Dankzij de ARIA-landmarks en goede structuur kan ik de site eenvoudig gebruiken. Een kleine verbetering zou zijn om foutmeldingen in formulieren iets gedetailleerder te maken, zodat gebruikers meteen weten wat ze moeten corrigeren.
 
 ### WCAG checklist
+
 Ik heb de WCAG-checklist twee keer ingevuld: één keer voor Rijksoverheid.nl en één keer voor Tiptopwasenstrijkservice.nl. Dit gaf me een goed beeld van hoe deze websites presteren op het gebied van toegankelijkheid.
 
 <img src="readme-images/foto-1.jpeg" width="375px" alt="Foto 1">
@@ -80,6 +92,7 @@ Bij Protanopia en Deuteranopia zijn rode en groene tinten moeilijk te onderschei
 De website werkt redelijk goed voor kleurenblinde gebruikers, maar kan verbeteren door meer visuele elementen toe te voegen, zoals iconen naast kleur of onderstreping bij links.
 
 ### Dark/lighttest, increase contrast en reduce motion test
+
 Ik heb gekeken hoe de website reageert op instellingen zoals donkere modus, verhoogd contrast en het verminderen van bewegingseffecten.
 
 De website reageert niet op deze instellingen. Wanneer ik de donkere modus inschakel, verandert er niets aan de kleuren. Ook bij verhoogd contrast gebeurt er niets. Bij reduce motion blijven animaties of bewegingen hetzelfde.
@@ -87,6 +100,7 @@ De website reageert niet op deze instellingen. Wanneer ik de donkere modus insch
 Hier is veel ruimte voor verbetering. Door de website aan te passen aan deze gebruikersvoorkeuren kan de ervaring voor visueel beperkte gebruikers en mensen met gevoeligheid voor beweging flink verbeteren.
 
 ### Conclusie en ontwerpadvies
+
 Ik vind dat Rijksoverheid.nl een goede basis heeft voor toegankelijkheid, vooral bij het gebruik van screenreaders en de algemene structuur. Toch zijn er verbeterpunten, vooral op het gebied van kleur en gebruikersvoorkeuren.
 
 1. **Kleurgebruik:** Voeg meer visuele elementen toe, zoals onderstreping bij links en iconen naast kleurgecodeerde knoppen.
@@ -97,22 +111,31 @@ Ik vind dat Rijksoverheid.nl een goede basis heeft voor toegankelijkheid, vooral
 
 Door deze verbeteringen kan de website niet alleen voldoen aan de richtlijnen, maar ook een inclusieve ervaring bieden aan een breder publiek.
 
-
 </details>
 
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+### de hele pagina: 
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="readme-images/breakdown-helepagina-een.jpg" width="375px" alt="Breakdownschets van de homepagina van de Rijksoverheid">
+
+<img src="readme-images/breakdown-helepagina-twee.jpg" width="375px" alt="Breakdownschets van de actueelpagina van de Rijksoverheid">
+
+### Dynamisch deel: 
+
+De breakdown van een dynamisch deel:
+
+<img src="readme-images/dynamisch-scherm-een.jpg" width="375px" alt="Breakdown van een dynamisch deel">
+
+### Nog een dynamisch deel: 
+
+De breakdown van nog een dynamisch deel:
+
+<img src="readme-images/dynamisch-scherm-twee.jpg" width="375px" alt="Breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -257,14 +280,11 @@ Door deze verbeteringen kan de website niet alleen voldoen aan de richtlijnen, m
 ## Bronnenlijst
 
 <details open>
-  <summary>Klik hierop om alle gebruikte bronnen te bekijken</summary>
 
-  1. Bron 1
-  Favicon van het logo van de Rijksoverheid:
-  https://www.radiotherapiegroep.nl/rijksoverheid-logo/
-  2. Bron 2
-  Logo van de Rijksoverheid voor de header met een transparante achtergrond:
-  https://www.rijkshuisstijl.nl/publiek/modules/product/DigitalStyleGuide/default/index.aspx?ItemId=6775
-  3. ...
+<summary>Klik hierop om alle gebruikte bronnen te bekijken</summary>
+
+1. Bron 1
+
+Favicon van het logo van de Rijksoverheid: https://www.radiotherapiegroep.nl/rijksoverheid-logo/
 
 </details>
