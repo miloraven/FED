@@ -123,9 +123,9 @@ Door deze verbeteringen kan de website niet alleen voldoen aan de richtlijnen, m
 
 De breakdown van de twee pagina's:
 
-<img src="readme-images/breakdown-helepagina-een.jpg" width="375px" alt="Breakdownschets van de homepagina van de Rijksoverheid">
+<img src="readme-images/breakdown-van-homepagina.jpg" width="375px" alt="Breakdownschets van de homepagina van de Rijksoverheid">
 
-<img src="readme-images/breakdown-helepagina-twee.jpg" width="375px" alt="Breakdownschets van de actueelpagina van de Rijksoverheid">
+<img src="readme-images/breakdown-van-actueelpagina.jpg" width="375px" alt="Breakdownschets van de actueelpagina van de Rijksoverheid">
 
 ### Dynamisch deel: 
 
