@@ -85,7 +85,7 @@ Rijksoverheid.nl voldoet aan bijna alle richtlijnen in de checklist. De website 
 ### Kleurenblindtest
 Ik heb getest hoe de website eruitziet voor mensen met Protanopia (roodblindheid), Deuteranopia (groenblindheid), Tritanopia (blauwblindheid) en Achromatopsia (volledige kleurenblindheid).
 
-<img src="readme-images/kleurenblind-test.png" width="375px" alt="De Rijkoverheid webpagina in een kleurenblindsimulatie">
+<img src="readme-images/kleurenblind-test.png" style="width: 100%;" alt="De Rijksoverheid webpagina in een kleurenblindsimulatie">
 
 Bij Protanopia en Deuteranopia zijn rode en groene tinten moeilijk te onderscheiden. Het blauwe menu blijft duidelijk zichtbaar, maar als ik bijvoorbeeld een rode accentkleur zou gebruiken, is die niet te zien. Bij Tritanopia verdwijnen blauwe tinten, wat het menu minder opvallend maakt. Bij Achromatopsia is alles grijs, en zonder extra visuele cues, zoals onderstreping of iconen, zijn links moeilijk te herkennen.
 
