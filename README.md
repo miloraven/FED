@@ -117,7 +117,7 @@ Door deze verbeteringen kan de website niet alleen voldoen aan de richtlijnen, m
 
 <details>
 
-<summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
+<summary>Klik hier om mijn breakdownschets te bekijken</summary>
 
 ### Breakdown van de twee pagina's: 
 
