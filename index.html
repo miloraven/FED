@@ -14,12 +14,12 @@
             <p>!! DIT IS NIET DE OFFICIËLE OVERHEIDSWEBSITE !!</p>
         </section>
         <section>
-            <h1>
-                <img src="images/logo-van-rijksoverheid.png" alt="Logo van de  Rijksoverheid">
+            <h1 aria-label="Welkom op de homepagina van de Rijksoverheid">
+                <img src="images/logo-van-rijksoverheid.png" alt="">
             </h1>
         </section>
         <section>
-            <nav>
+            <nav aria-label="Dit is het hoofdmenu">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Actueel</a></li>
@@ -33,185 +33,234 @@
     </header>
     <main>
         <section>
-            <section>
-                <h2>Veel bekeken</h2>
-                <ul>
-                    <li><a href="">› Bedragen kinderopvangtoeslag 2025</a></li>
-                    <li><a href="">› Bedragen minimumloon 2025</a></li>
-                    <li><a href="">› Officiële feestdagen</a></li>
-                    <li><a href="">› Voorkom schijnzelfstandigheid: check het contract</a></li>
-                </ul>
-            </section>
-            <section>
-                <h2>Zoeken</h2>
-                <form>
-                    <input type="text" placeholder="Zoeken">
-                    <button type="submit">🔍</button>
-                </form>
-            </section>
+            <h2>Veel bekeken</h2>
+            <ul>
+                <li><a href="">› Bedragen kinderopvangtoeslag 2025</a></li>
+                <li><a href="">› Bedragen minimumloon 2025</a></li>
+                <li><a href="">› Officiële feestdagen</a></li>
+                <li><a href="">› Voorkom schijnzelfstandigheid: check het contract</a></li>
+            </ul>
         </section>
         <section>
-            <a href="">
-                <article>
-                    <h3>Belastingen, uitkeringen en toeslagen</h3>
-                    <p>AOW, Bijstand, WW-uitkering, Belastingplan, Kinderopvangtoeslag...</p>
-                </article>
-            </a>
-            <a href="">
-                <article>
-                    <h3>Bouwen en wonen</h3>
-                    <p>Huurwoning, Huurverhoging, Koopwoning, Subsidie energie thuis, Omgevingswet...</p>
-                </article>
-            </a>
-            <a href="">
-                <article>
-                    <h3>Economie</h3>
-                    <p>Koopkracht, Armoedebestrijding, Ondernemen en innovatie, Duurzame economie, Overheidsfinanciën...</p>
-                </article>
-            </a>
-            <a href="">
-                <article>
-                    <h3>Familie, zorg en gezondheid</h3>
-                    <p>Zorgverzekering, Scheiden of uit elkaar gaan, 18 jaar worden, Zwangerschapsverlof, Mantelzorg...</p>
-                </article>
-            </a>
-            <a href="">
-                <article>
-                    <h3>Internationale samenwerking</h3>
-                    <p>Oorlog in Oekraïne, Europese Unie, Mensenrechten, Internationale sancties, Ontwikkelingssamenwerking...</p>
-                </article>
-            </a>
-            <a href="">
-                <article>
-                    <h3>Klimaat, milieu en natuur</h3>
-                    <p>Stikstof, Duurzame energie, Gaswinning in Groningen, Klimaatverandering, Dierenwelzijn...</p>
-                </article>
-            </a>
-            <a href="">
-                <article>
-                    <h3>Migratie en reizen</h3>
-                    <p>Paspoort en identiteitskaart, Vakantie en reizen, Opvang vluchtelingen uit Oekraïne, Asielbeleid...</p>
-                </article>
-            </a>
-            <a href="">
-                <article>
-                    <h3>Onderwijs</h3>
-                    <p>Schoolvakanties, Hoger onderwijs, Basisonderwijs, Middelbaar beroepsonderwijs, Werken in het onderwijs...</p>
-                </article>
-            </a>
-            <a href="">
-                <article>
-                    <h3>Overheid en democratie</h3>
-                    <p>Gemeenten, Grondwet en statuut, Verkiezingen, Caribisch deel van het Koninkrijk, Miljoenennota, Digitale overheid...</p>
-                </article>
-            </a>
-            <a href="">
-                <article>
-                    <h3>Recht, veiligheid en defensie</h3>
-                    <p>Identiteitsfraude, NAVO, Dreiging in Nederland, Israël en de Palestijnse gebieden, Ondermijning, Seksuele misdrijven...</p>
-                </article>
-            </a>
-            <a href="">
-                <article>
-                    <h3>Verkeer en vervoer</h3>
-                    <p>Rijbewijs, Openbaar vervoer, Luchtvaart, Verkeersveiligheid, Voertuigen op de weg...</p>
-                </article>
-            </a>
-            <a href="">
-                <article>
-                    <h3>Werk</h3>
-                    <p>Minimumloon, Arbeidsovereenkomst en cao, Zwangerschaps- en bevallingsverlof, Pensioen, Ontslag, Vakantiebaan...</p>
-                </article>
-            </a>
+            <h2>Zoeken</h2>
+            <form aria-label="Dit is de zoekfunctie">
+                <input type="text" placeholder="Zoeken">
+                <button type="submit">🔍</button>
+            </form>
+        </section>
+        <section>
+            <h2 class="visually-hidden">Hier vind je informatie over verschillende onderwerpen.</h2>
+            <ul>
+                <li>
+                    <a href="">
+                        <article>
+                            <h3>Belastingen, uitkeringen en toeslagen</h3>
+                            <p>AOW, Bijstand, WW-uitkering, Belastingplan, Kinderopvangtoeslag...</p>
+                        </article>
+                    </a>   
+                </li>
+                <li>
+                    <a href="">
+                        <article>
+                            <h3>Bouwen en wonen</h3>
+                            <p>Huurwoning, Huurverhoging, Koopwoning, Subsidie energie thuis, Omgevingswet...</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <article>
+                            <h3>Economie</h3>
+                            <p>Koopkracht, Armoedebestrijding, Ondernemen en innovatie, Duurzame economie, Overheidsfinanciën...</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <article>
+                            <h3>Familie, zorg en gezondheid</h3>
+                            <p>Zorgverzekering, Scheiden of uit elkaar gaan, 18 jaar worden, Zwangerschapsverlof, Mantelzorg...</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <article>
+                            <h3>Internationale samenwerking</h3>
+                            <p>Oorlog in Oekraïne, Europese Unie, Mensenrechten, Internationale sancties, Ontwikkelingssamenwerking...</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <article>
+                            <h3>Klimaat, milieu en natuur</h3>
+                            <p>Stikstof, Duurzame energie, Gaswinning in Groningen, Klimaatverandering, Dierenwelzijn...</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <article>
+                            <h3>Migratie en reizen</h3>
+                            <p>Paspoort en identiteitskaart, Vakantie en reizen, Opvang vluchtelingen uit Oekraïne, Asielbeleid...</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <article>
+                            <h3>Onderwijs</h3>
+                            <p>Schoolvakanties, Hoger onderwijs, Basisonderwijs, Middelbaar beroepsonderwijs, Werken in het onderwijs...</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <article>
+                            <h3>Overheid en democratie</h3>
+                            <p>Gemeenten, Grondwet en statuut, Verkiezingen, Caribisch deel van het Koninkrijk, Miljoenennota, Digitale overheid...</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <article>
+                            <h3>Recht, veiligheid en defensie</h3>
+                            <p>Identiteitsfraude, NAVO, Dreiging in Nederland, Israël en de Palestijnse gebieden, Ondermijning, Seksuele misdrijven...</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <article>
+                            <h3>Verkeer en vervoer</h3>
+                            <p>Rijbewijs, Openbaar vervoer, Luchtvaart, Verkeersveiligheid, Voertuigen op de weg...</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <article>
+                            <h3>Werk</h3>
+                            <p>Minimumloon, Arbeidsovereenkomst en cao, Zwangerschaps- en bevallingsverlof, Pensioen, Ontslag, Vakantiebaan...</p>
+                        </article>
+                    </a>
+                </li>
+            </ul>
         </section>
         <section>
             <h2>Direct naar</h2>
-            <section>
-                <a href="">
-                    <article>
-                        <img src="" alt="">
-                        <h3>↗ Basispakket zorgverzekering: wat verandert er?</h3>
-                        <p>Per 1 januari 2025 wijzigt het basispakket. Bekijk wat dit voor u betekent.</p>
-                    </article>
-                </a>
-                <a href="">
-                    <article>
-                        <img src="" alt="">
-                        <h3>↗ Bewuster omgaan met energie</h3>
-                        <p>Kies slim wanneer u energie gebruikt, bekijk bespaartips en krijg inzicht in piekmomenten.</p>
-                    </article>
-                </a>
-                <a href="">
-                    <article>
-                        <img src="" alt="">
-                        <h3>↗ Stel je noodpakket samen</h3>
-                        <p>Een noodpakket samenstellen is makkelijk. Bekijk hoe u een noodpakket samenstelt.</p>
-                    </article>
-                </a>
-            </section>
+            <ul>
+                <li>
+                    <a href="">
+                        <article>
+                            <img src="" alt="">
+                            <h3>↗ Basispakket zorgverzekering: wat verandert er?</h3>
+                            <p>Per 1 januari 2025 wijzigt het basispakket. Bekijk wat dit voor u betekent.</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <article>
+                            <img src="" alt="">
+                            <h3>↗ Bewuster omgaan met energie</h3>
+                            <p>Kies slim wanneer u energie gebruikt, bekijk bespaartips en krijg inzicht in piekmomenten.</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <article>
+                            <img src="" alt="">
+                            <h3>↗ Stel je noodpakket samen</h3>
+                            <p>Een noodpakket samenstellen is makkelijk. Bekijk hoe u een noodpakket samenstelt.</p>
+                        </article>
+                    </a>
+                </li>
+            </ul>
         </section>
         <section>
             <h2>Nieuws</h2>
-            <section>
-                <a href="#">
-                    <article>
-                        <h3>Landelijke ophok- en afschermplicht ingesteld door vogelgriepuitbraken</h3>
-                        <p>20-11-2024 | 17:30</p>
-                        <p>De minister van Landbouw, Visserij, Voedselzekerheid en Natuur heeft besloten om een landelijke ophok- en afschermplicht in te ...</p>
-                    </article>
-                </a>
-                <a href="#">
-                    <article>
-                        <h3>Kabinet investeert in talent voor microchipsector</h3>
-                        <p>20-11-2024 | 16:00</p>
-                        <p>Meer technici opleiden voor de microchipsector. Verspreid over het land gaan mbo-instellingen, hogescholen en universiteiten ...</p>
-                    </article>
-                </a>
-                <a href="#">
-                    <article>
-                        <h3>Nederland investeert in wereldwijd fietsen</h3>
-                        <p>20-11-2024 | 14:00</p>
-                        <p>Nederland gaat € 500.000 bijdragen aan het Global Facility to Decarbonize Transport (GFDT) fonds van de Wereldbank. Met dit fonds ...</p>
-                    </article>
-                </a>
-                <a href="#">
-                    <article>
-                        <h3>Verlenging concessieperiode landelijke publieke omroep met 2 jaar</h3>
-                        <p>20-11-2024 | 12:00</p>
-                        <p>Minister Eppo Bruins (Cultuur en Media) wil de huidige concessieperiode van de landelijke publieke omroep met 2 jaar verlengen. ...</p>
-                    </article>
-                </a>
-                <a href="#">
-                    <article>
-                        <h3>Europa wil gezamenlijk militaire capaciteiten op zee en in de lucht versterken</h3>
-                        <p>19-11-2024 | 16:44</p>
-                        <p>Europese landen willen de onderlinge militaire samenwerking versterken. Dat moet onder meer gebeuren op maritiem gebied, in de ...</p>
-                    </article>
-                </a>
-                <a href="#">
-                    <article>
-                        <h3>Recht op kinderopvangtoeslag voor Oekraïense ontheemden</h3>
-                        <p>19-11-2024 | 15:46</p>
-                        <p>De Eerste Kamer heeft ermee ingestemd dat Oekraïense ontheemden aanspraak kunnen maken op kinderopvangtoeslag. Ze moeten dan wel ...</p>
-                    </article>
-                </a>
-            </section>
+            <ul>
+                <li>
+                    <a href="#">
+                        <article>
+                            <h3>Landelijke ophok- en afschermplicht ingesteld door vogelgriepuitbraken</h3>
+                            <p>20-11-2024 | 17:30</p>
+                            <p>De minister van Landbouw, Visserij, Voedselzekerheid en Natuur heeft besloten om een landelijke ophok- en afschermplicht in te ...</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <article>
+                            <h3>Kabinet investeert in talent voor microchipsector</h3>
+                            <p>20-11-2024 | 16:00</p>
+                            <p>Meer technici opleiden voor de microchipsector. Verspreid over het land gaan mbo-instellingen, hogescholen en universiteiten ...</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <article>
+                            <h3>Nederland investeert in wereldwijd fietsen</h3>
+                            <p>20-11-2024 | 14:00</p>
+                            <p>Nederland gaat € 500.000 bijdragen aan het Global Facility to Decarbonize Transport (GFDT) fonds van de Wereldbank. Met dit fonds ...</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <article>
+                            <h3>Verlenging concessieperiode landelijke publieke omroep met 2 jaar</h3>
+                            <p>20-11-2024 | 12:00</p>
+                            <p>Minister Eppo Bruins (Cultuur en Media) wil de huidige concessieperiode van de landelijke publieke omroep met 2 jaar verlengen. ...</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <article>
+                            <h3>Europa wil gezamenlijk militaire capaciteiten op zee en in de lucht versterken</h3>
+                            <p>19-11-2024 | 16:44</p>
+                            <p>Europese landen willen de onderlinge militaire samenwerking versterken. Dat moet onder meer gebeuren op maritiem gebied, in de ...</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <article>
+                            <h3>Recht op kinderopvangtoeslag voor Oekraïense ontheemden</h3>
+                            <p>19-11-2024 | 15:46</p>
+                            <p>De Eerste Kamer heeft ermee ingestemd dat Oekraïense ontheemden aanspraak kunnen maken op kinderopvangtoeslag. Ze moeten dan wel ...</p>
+                        </article>
+                    </a>
+                </li>
+            </ul>
             <a href="">Meer nieuws</a>
         </section>
         <section>
-            <a href="#">
-                <article>
-                    <p>Vragen?</p>
-                    <p>Bel Informatie Rijksoverheid:</p>
-                    <p>1400</p>
-                </article>
-            </a>
-            <a href="#">
-                <article>
-                    <p>Meld u aan voor de</p>
-                    <p>Nieuwsbrief Regeringsnieuws</p>
-                </article>
-            </a>
+            <ul>
+                <li>
+                    <a href="#">
+                        <article>
+                            <p>Vragen?</p>
+                            <p>Bel Informatie Rijksoverheid:</p>
+                            <p>1400</p>
+                        </article>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <article>
+                            <p>Meld u aan voor de</p>
+                            <p>Nieuwsbrief Regeringsnieuws</p>
+                        </article>
+                    </a>
+                </li>
+            </ul>
         </section>
     </main>
     <footer>
@@ -220,51 +269,45 @@
         </section>
         <section>
             <h3>Service</h3>
-            <ul>
-                <li><a href="#">› Contact</a></li>
-                <li><a href="#">› Abonneren</a></li>
-                <li><a href="#">› RSS</a></li>
-                <li><a href="#">› Vacatures</a></li>
-                <li><a href="#">› Sitemap</a></li>
-                <li><a href="#">› Help</a></li>
-                <li><a href="#">› Archief</a></li>
-            </ul>
+            <nav aria-label="Dit zijn de 'service' links in de footer">
+                <ul>
+                    <li><a href="#">› Contact</a></li>
+                    <li><a href="#">› Abonneren</a></li>
+                    <li><a href="#">› RSS</a></li>
+                    <li><a href="#">› Vacatures</a></li>
+                    <li><a href="#">› Sitemap</a></li>
+                    <li><a href="#">› Help</a></li>
+                    <li><a href="#">› Archief</a></li>
+                </ul>
+            </nav>
         </section>
         <section>
             <h3>Over deze site</h3>
+            <nav aria-label="Dit zijn de 'over deze site' links in de footer">
+                <ul>
+                    <li><a href="#">› Over Rijksoverheid.nl</a></li>
+                    <li><a href="#">› Wetten en regelingen</a></li>
+                    <li><a href="#">› Copyright</a></li>
+                    <li><a href="#">› Privacy</a></li>
+                    <li><a href="#">› Cookies</a></li>
+                    <li><a href="#">› Toegankelijkheid</a></li>
+                    <li><a href="#">› Open data</a></li>
+                    <li><a href="#">› Kwetsbaarheid melden</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section aria-label="Talenopties">
+            <p>Deze website in andere talen:</p>
             <ul>
-                <li><a href="#">› Over Rijksoverheid.nl</a></li>
-                <li><a href="#">› Wetten en regelingen</a></li>
-                <li><a href="#">› Copyright</a></li>
-                <li><a href="#">› Privacy</a></li>
-                <li><a href="#">› Cookies</a></li>
-                <li><a href="#">› Toegankelijkheid</a></li>
-                <li><a href="#">› Open data</a></li>
-                <li><a href="#">› Kwetsbaarheid melden</a></li>
+                <li><button>Nederlands</button></li>
+                <li><button>English</button></li>
+                <li><button>Papiamento</button></li>
+                <li><button>Papiamentu</button></li>
+                <li><button>Nederlandse Gebarentaal</button></li>
             </ul>
         </section>
-        <section>
-            <p>Deze website in andere talen:</p>
-            <section>
-                <a href="#">
-                    <button>Nederlands</button>
-                </a>
-                <a href="#">
-                    <button>English</button>
-                </a>
-                <a href="#">
-                    <button>Papiamento</button>
-                </a>
-                <a href="#">
-                    <button>Papiamentu</button>
-                </a>
-                <a href="#">
-                    <button>Nederlandse Gebarentaal</button>
-                </a>
-            </section>
-        </section>
     </footer>
-
+    
     <script defer src="scripts/script.js"></script>
 </body>
 </html>

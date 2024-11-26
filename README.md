@@ -144,29 +144,26 @@ De breakdown van nog een dynamisch deel:
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+<summary>Klik hier om meer te weten lezen over het 1e voortgangsgesprek</summary>
 
+### Stand van zaken
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
+Het proces verloopt soepel. Helaas kon ik vanwege privéredenen en het vinden van een stage niet altijd bij de lessen aanwezig zijn, maar uiteindelijk is alles goed gekomen. De HTML is volledig afgerond en het procesverslag is up-to-date in de README-file. Daarnaast ben ik ook al begonnen met het experimenteren in CSS om verdere vooruitgang te boeken.
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+De website en een deel van de code:
 
+<img src="readme-images/deel-van-de-website.png.png" width="375px" alt="Screenshot van een deel van de website">
 
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+<img src="readme-images/deel-van-de-code.png" width="375px" alt="Screenshot van een deel van de code">
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+### Agenda voor meeting
+
+Tijdens de groepssessie hebben we de agenda gericht op het verbeteren van CSS en het bespreken van individuele uitdagingen. Dit gaf ons de mogelijkheid om van elkaar te leren en concrete verbeterpunten te vinden. Het was waardevol om te zien hoe iedereen zijn eigen inzichten inbracht en oplossingen aandroeg.
+
+### Verslag van meeting
+
+We hebben concrete verbeteringen besproken, zoals het optimaliseren van sections (geen sections binnen sections), en het gebruik van H2-tags bij onduidelijke onderdelen, eventueel met onzichtbare H2's of aria-labels voor betere toegankelijkheid met screenreaders. Verder is het belangrijk om een eigen font te kiezen en niet te blijven bij standaardfonts zoals Verdana. Voor de structuur van artikelen werd geadviseerd om een lijst te maken, zodat screenreaders het aantal items duidelijk kunnen lezen. Tot slot hebben we besproken om bij media queries eerst voor mobiel te ontwerpen en vanuit daar verder te bouwen, waarbij we niet gebonden blijven aan specifieke schermformaten maar kijken naar wat visueel goed werkt.
 
 </details>
 
