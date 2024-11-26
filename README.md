@@ -153,7 +153,7 @@ Het proces verloopt soepel. Helaas kon ik vanwege privéredenen en het vinden va
 
 De website en een deel van de code:
 
-<img src="readme-images/deel-van-de-website.png.png" width="375px" alt="Screenshot van een deel van de website">
+<img src="readme-images/deel-van-de-website.png" width="375px" alt="Screenshot van een deel van de website">
 
 <img src="readme-images/deel-van-de-code.png" width="375px" alt="Screenshot van een deel van de code">
 
