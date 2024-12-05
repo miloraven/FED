@@ -1,0 +1,108 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;  
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+
+:root{
+  /* Kleuren */
+  --color-text:#000000;
+  --color-alternative-text: #FFFFFF; 
+  --color-background:#FFFFFF;
+  --primary-color: #03679B;
+  --secondary-color: #A90060;
+
+  /* Typografie */
+  --primary-font: 'Source Sans Pro', sans-serif;
+  --heading-font-size: 2rem;
+  --body-font-size: 1rem;
+  
+  
+}
+
+/****************/
+/* STYLING */
+/****************/
+
+/* Algemeen */
+
+body{
+  font-family: var(--primary-font);
+}
+
+.visually-hidden{
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* Specifiek voor deze pagina */
+
+
+/* Header */
+
+/* Waarschuwingsbalk */
+header section:first-child{
+  background-color: red;
+  color: var(--color-alternative-text);
+  font-weight: bold;
+  letter-spacing: 0.015em;
+  display: flex;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+/* Rijkoverheidlogo */
+header section:nth-of-type(2){
+  display: flex;
+  justify-content: center;
+}
+
+header section:nth-of-type(2) h1 img{
+  width: 6em;
+}
+
+/* Main */
+
+/* Veel bekeken */
+main section:first-child{
+  background-image: url('../images/achtergrond-veel-bekeken.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%; 
+  height: 100%;
+}
+
+main section:first-child div{
+  background-color: var(--color-background);
+  margin-left: 3%;
+  margin-right: 25%;
+  padding: 1em;
+}
+
+main section:first-child h2{
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+ul li a {
+  text-decoration: none; /* Verwijdert de onderstreping */
+  color: #03679B; /* Standaard kleur */
+  transition: color 0.3s ease, border-bottom 0.3s ease; /* Soepel overgangseffect */
+}
+
+main section:first-child ul{
+  list-style: none;
+}
