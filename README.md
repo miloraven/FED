@@ -218,35 +218,40 @@ Een screenshot van de responsive heade op mobiel en desktop:
 ## Voortgang 3 (week 4)
 
 <details>
-  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
+  <summary>Klik hier om meer te lezen over het 3e eindgesprek</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Het derde gesprek was eigenlijk een eindgesprek. Omdat ik een voortgangsgesprek had gemist, werd dit gesprek ook benut om terug te kijken. Waar anderen soms gespannen waren, voelde ik me best relaxt. Ik kon nog veel vragen stellen, wat me nuttige inzichten gaf over hoe ik de laatste fase kan benaderen.
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
+  Ik heb al een groot deel afgerond, maar er zijn nog verbeterpunten. Zo moet mijn tweede pagina nog complexer worden en zijn er op codeniveau punten die ik kan optimaliseren. Ook bleek mijn JavaScript-interactie nog niet voldoende, dus die ga ik aanpakken.
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  ### Bevindingen en actiepunten
 
+  - **Tweede pagina:** Ik ga een interactieve kaart implementeren om de functionaliteit te vergroten.
+  - **Videocarousel:** Er komt een videocarousel die toegankelijk moet zijn met toetsenbordnavigatie (pijltjestoetsen), wat een uitdagende klus wordt in JavaScript.
+  - **Sections:** Onnodige sections kunnen worden verwijderd om de structuur te vereenvoudigen.
+  - **Links in artikelen:** Linkjes moeten in een `<article>`-element worden geplaatst voor een betere semantische opbouw.
+  - **ARIA-labels:** Het gebruik van ARIA-labels wordt verminderd waar deze overbodig zijn.
+  - **HTML-correcties:** Sommige elementen hebben een verkeerde naamgeving en moeten worden aangepast.
+  - **Toegankelijkheid:** Contrast en algemene toegankelijkheid moeten worden gecontroleerd en verbeterd.
 
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  ### Planning
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  Met deze verbeterpunten in gedachten, plan ik de volgende stappen:
+  1. De tweede pagina verder ontwikkelen, inclusief de interactieve kaart.
+  2. De videocarousel bouwen met JavaScript, met focus op toegankelijkheid.
+  3. De bestaande structuur optimaliseren door overbodige sections en ARIA-labels te verwijderen.
+  4. Toegankelijkheidstests uitvoeren om contrast en gebruiksvriendelijkheid te verbeteren.
 
+  ### Visuele voorbeelden van de voortgang
+
+  Een voorbeeld van mijn interactieve kaart:
+  <img src="readme-images/interactieve-kaart.png" width="375px" alt="Interactieve kaart voorbeeld">
+
+  Een overzicht van de huidige videocarousel:
+  <img src="readme-images/image-carousel.png" width="375px" alt="Screenshot van de videocarousel">
 </details>
-
-
-
-
 
 ## Eindgesprek (week 5)
 
