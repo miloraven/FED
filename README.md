@@ -167,42 +167,37 @@ We hebben concrete verbeteringen besproken, zoals het optimaliseren van sections
 
 </details>
 
-
-
-
-
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
+<summary>Klik hier om meer te lezen over het 2e voortgangsgesprek</summary>
 
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+### Stand van zaken
 
+Tijdens dit gesprek waren we slechts met zijn tweeën, maar dat heeft me niet tegengehouden om veel te leren. Ik liep vast met het responsive maken van mijn header. In de les heeft Sanne dit duidelijk uitgelegd en zelfs de code hiervoor opgestuurd. Dit heeft enorm geholpen, en ik denk dat mijn project nu zo goed als klaar is.
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
+Helina was al bijna klaar met haar project, omdat ze haar gesprek eerder gepland had. Dat gaf me de kans om veel inspiratie uit haar werk te halen en inzicht te krijgen in hoe ik mijn project verder kon verbeteren. Dit vond ik erg waardevol.
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+### Vooruitgang
 
+Dankzij de hulp van Sanne en de inspiratie van Helina ben ik flink vooruitgegaan. De header is nu volledig responsive, en ik heb geleerd hoe ik mijn CSS efficiënter kan maken. Dit zal ik ook toepassen op andere delen van mijn project. Daarnaast heb ik de README verder bijgewerkt met de laatste wijzigingen.
 
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+Een screenshot van de responsive header:
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+<img src="readme-images/responsive-header.png" width="375px" alt="Screenshot van de responsive header">
+
+### Belangrijke inzichten
+
+1. **Responsive header:** Het probleem dat heel moeilijk was leek na een uitleg ineens heel makkelijk. Ik heb hier echt zoveel aan gehad. 
+2. **Feedback van Helina:** Haar gestructureerde aanpak inspireerde me om mijn project overzichtelijker te maken en me beter te focussen op toegankelijkheid.
+
+### Agenda voor de volgende stappen
+
+- Toepassen van de verbeteringen uit deze sessie op andere onderdelen van de website.
+- Testen van de toegankelijkheid van de site met een screenreader.
+- Beginnen met het schrijven van het definitieve procesverslag en voorbereiden op het laatste voortgangsgesprek.
 
 </details>
-
-
-
-
 
 ## Toegankelijkheidstest 2/2 (week 4)
 
