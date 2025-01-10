@@ -182,9 +182,11 @@ Helina was al bijna klaar met haar project, omdat ze haar gesprek eerder gepland
 
 Dankzij de hulp van Sanne en de inspiratie van Helina ben ik flink vooruitgegaan. De header is nu volledig responsive, en ik heb geleerd hoe ik mijn CSS efficiënter kan maken. Dit zal ik ook toepassen op andere delen van mijn project. Daarnaast heb ik de README verder bijgewerkt met de laatste wijzigingen.
 
-Een screenshot van de responsive header:
+Een screenshot van de responsive heade op mobiel en desktop:
 
-<img src="readme-images/responsive-header.png" width="375px" alt="Screenshot van de responsive header">
+<img src="readme-images/header-op-mobiel.png" width="375px" alt="Screenshot van de responsive header op mobiel">
+
+<img src="readme-images/header-op-desktop.png" width="375px" alt="Screenshot van de responsive header op mobiel">
 
 ### Belangrijke inzichten
 
