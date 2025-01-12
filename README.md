@@ -282,10 +282,19 @@ Een screenshot van de responsive header op mobiel en desktop:
 <details open>
 <summary>Klik hierop om alle gebruikte bronnen te bekijken</summary>
 
+### Algemeen
+- Voor sommige delen van de code heb ik mijn eigen aanpassingen en ideeën toegepast, gebaseerd op de tools en informatie uit onderstaande bronnen.
+
 1. Radiotherapiegroep. (z.d.). *Rijksoverheid-logo*. Geraadpleegd in november en december 2024, van [https://www.radiotherapiegroep.nl/rijksoverheid-logo/](https://www.radiotherapiegroep.nl/rijksoverheid-logo/)
 
 2. Rijksoverheid. (z.d.). *Officiële website van de Rijksoverheid*. Geraadpleegd in november en december 2024, van [https://www.rijksoverheid.nl/](https://www.rijksoverheid.nl/)
 
 3. Rijksoverheid. (z.d.). *Actueel*. Geraadpleegd in november en december 2024, van [https://www.rijksoverheid.nl/actueel](https://www.rijksoverheid.nl/actueel)
+
+4. t Hooft, S. (z.d.). HTML- en CSS-code voor responsive design. *CodePen*. Geraadpleegd in november en december 2024, van [https://codepen.io/shooft/pen/MYgKMZp](https://codepen.io/shooft/pen/MYgKMZp)
+
+5. CSS Grid Generator. (z.d.). *Interactie voor grid-layouts*. Geraadpleegd in november en december 2024, van [https://cssgrid-generator.netlify.app/](https://cssgrid-generator.netlify.app/)
+
+6. OpenAI. (z.d.). Kleine aanpassingen en suggesties voor code, verzorgd via *ChatGPT*. 
 
 </details>
