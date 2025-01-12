@@ -277,18 +277,18 @@ Een screenshot van de responsive header op mobiel en desktop:
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
-
-
-
-
 ## Bronnenlijst
 
 <details open>
-
 <summary>Klik hierop om alle gebruikte bronnen te bekijken</summary>
 
-1. Bron 1
+1. Favicon van het logo van de Rijksoverheid:  
+   [https://www.radiotherapiegroep.nl/rijksoverheid-logo/](https://www.radiotherapiegroep.nl/rijksoverheid-logo/)
 
-Favicon van het logo van de Rijksoverheid: https://www.radiotherapiegroep.nl/rijksoverheid-logo/
+2. Informatie en afbeeldingen van de Rijksoverheid:  
+   [https://www.rijksoverheid.nl/](https://www.rijksoverheid.nl/)
+
+3. Afbeelding van de pagina 'Actueel':  
+   [https://www.rijksoverheid.nl/actueel](https://www.rijksoverheid.nl/actueel)
 
 </details>
