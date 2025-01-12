@@ -282,13 +282,10 @@ Een screenshot van de responsive header op mobiel en desktop:
 <details open>
 <summary>Klik hierop om alle gebruikte bronnen te bekijken</summary>
 
-1. Favicon van het logo van de Rijksoverheid:  
-   [https://www.radiotherapiegroep.nl/rijksoverheid-logo/](https://www.radiotherapiegroep.nl/rijksoverheid-logo/)
+1. Radiotherapiegroep. (z.d.). *Rijksoverheid-logo*. Geraadpleegd in november en december 2024, van [https://www.radiotherapiegroep.nl/rijksoverheid-logo/](https://www.radiotherapiegroep.nl/rijksoverheid-logo/)
 
-2. Informatie en afbeeldingen van de Rijksoverheid:  
-   [https://www.rijksoverheid.nl/](https://www.rijksoverheid.nl/)
+2. Rijksoverheid. (z.d.). *Officiële website van de Rijksoverheid*. Geraadpleegd in november en december 2024, van [https://www.rijksoverheid.nl/](https://www.rijksoverheid.nl/)
 
-3. Afbeelding van de pagina 'Actueel':  
-   [https://www.rijksoverheid.nl/actueel](https://www.rijksoverheid.nl/actueel)
+3. Rijksoverheid. (z.d.). *Actueel*. Geraadpleegd in november en december 2024, van [https://www.rijksoverheid.nl/actueel](https://www.rijksoverheid.nl/actueel)
 
 </details>
