@@ -316,6 +316,10 @@ Voor sommige delen van de code heb ik mijn eigen aanpassingen en ideeën toegepa
 
 5. CSS Grid Generator. (z.d.). *Interactie voor grid-layouts*. Geraadpleegd in november en december 2024, van [https://cssgrid-generator.netlify.app/](https://cssgrid-generator.netlify.app/)
 
-6. OpenAI. (z.d.). Kleine aanpassingen en suggesties voor code, verzorgd via *ChatGPT*. 
+6. OpenAI. (z.d.). Kleine aanpassingen en suggesties voor code, verzorgd via *ChatGPT*.
+
+7. Icons8. (z.d.). *Search icon*. Geraadpleegd op 12 januari 2025, van [https://icons8.com/icons/set/search--static--black](https://icons8.com/icons/set/search--static--black)
+
+8. Icons8. (z.d.). *Hamburger menu icon*. Geraadpleegd op 12 januari 2025, van [https://icons8.com/icons/set/hamburger-menu--static--black](https://icons8.com/icons/set/hamburger-menu--static--black)
 
 </details>
