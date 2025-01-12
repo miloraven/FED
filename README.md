@@ -204,15 +204,25 @@ Een screenshot van de responsive header op mobiel en desktop:
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
-  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+<summary>Klik hier om de bevindingen van de 2e toegankelijksheidstest te zien</summary>
 
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+### Bevindingen
+Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+
+#### Screenreader
+Alles werd goed toegelicht door de screenreader.
+Ik gebruik nog te veel onnodige secties, wat de structuur verwarrend maakt. Dit moet worden vereenvoudigd om het toegankelijker te maken.
+Op mijn tweede pagina ontbreken onzichtbare headers, waardoor je niet altijd weet waar je je bevindt. Dit moet worden toegevoegd.
+Over het gebruik van `tabindex` ben ik nog onzeker. Hiervoor wil ik advies vragen aan mijn klasgenoten.
+
+#### Contrast-check
+**Light-modus**:
+De contrast-check vond ik leuk om te doen en ik heb de website [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) gebruikt.
+Voor de light-versie van mijn site voldoet alles aan WCAG AA voor normale tekst en aan WCAG AAA voor grote tekst en andere elementen.
+**Dark-modus**:
+Voor de dark-modus is alles goedgekeurd, inclusief WCAG AAA.
 
 </details>
-
-
-
 
 
 ## Voortgang 3 (week 4)
@@ -255,6 +265,10 @@ Een screenshot van de responsive header op mobiel en desktop:
   <img src="readme-images/image-carousel.png" width="375px" alt="Screenshot van de videocarousel">
 
 </details>
+
+## Aangepaste breakdownschetsen van beide pagina's
+
+dafdsfadsf
 
 ## Eindgesprek (week 5)
 
