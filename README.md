@@ -247,10 +247,13 @@ Een screenshot van de responsive heade op mobiel en desktop:
   ### Visuele voorbeelden van de voortgang
 
   Een voorbeeld van mijn interactieve kaart:
+
   <img src="readme-images/interactieve-kaart.png" width="375px" alt="Interactieve kaart voorbeeld">
 
   Een overzicht van de huidige videocarousel:
+
   <img src="readme-images/image-carousel.png" width="375px" alt="Screenshot van de videocarousel">
+  
 </details>
 
 ## Eindgesprek (week 5)
