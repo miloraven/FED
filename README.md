@@ -182,7 +182,7 @@ Helina was al bijna klaar met haar project, omdat ze haar gesprek eerder gepland
 
 Dankzij de hulp van Sanne en de inspiratie van Helina ben ik flink vooruitgegaan. De header is nu volledig responsive, en ik heb geleerd hoe ik mijn CSS efficiënter kan maken. Dit zal ik ook toepassen op andere delen van mijn project. Daarnaast heb ik de README verder bijgewerkt met de laatste wijzigingen.
 
-Een screenshot van de responsive heade op mobiel en desktop:
+Een screenshot van de responsive header op mobiel en desktop:
 
 <img src="readme-images/header-op-mobiel.png" width="375px" alt="Screenshot van de responsive header op mobiel">
 
@@ -253,7 +253,7 @@ Een screenshot van de responsive heade op mobiel en desktop:
   Een overzicht van de huidige videocarousel:
 
   <img src="readme-images/image-carousel.png" width="375px" alt="Screenshot van de videocarousel">
-  
+
 </details>
 
 ## Eindgesprek (week 5)
