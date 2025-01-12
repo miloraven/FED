@@ -283,7 +283,7 @@ Een screenshot van de responsive header op mobiel en desktop:
 <summary>Klik hierop om alle gebruikte bronnen te bekijken</summary>
 
 ### Algemeen
-- Voor sommige delen van de code heb ik mijn eigen aanpassingen en ideeën toegepast, gebaseerd op de tools en informatie uit onderstaande bronnen.
+Voor sommige delen van de code heb ik mijn eigen aanpassingen en ideeën toegepast, gebaseerd op de tools en informatie uit onderstaande bronnen.
 
 1. Radiotherapiegroep. (z.d.). *Rijksoverheid-logo*. Geraadpleegd in november en december 2024, van [https://www.radiotherapiegroep.nl/rijksoverheid-logo/](https://www.radiotherapiegroep.nl/rijksoverheid-logo/)
 
