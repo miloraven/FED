@@ -229,6 +229,20 @@ Voor de light-versie van mijn site voldoet alles aan WCAG AA voor normale tekst 
 
 Voor de dark-modus is alles goedgekeurd, inclusief WCAG AAA.
 
+#### WCAG checklist
+
+Ik heb de WCAG-checklist ook ingevuld. Veel viel er niet te verbeteren aan de website zelf. Ik heb een dark modus toegevoegd en wat ARIA-labels. Daaruit is geblekeken dat de website wel toegankelijker is geworden wat erg fijn is. 
+
+<img src="readme-images/foto-1-1.jpeg" width="375px" alt="Foto 1 van test 2">
+
+<img src="readme-images/foto-1-2.jpeg" width="375px" alt="Foto 2 van test 2">
+
+<img src="readme-images/foto-1-3.jpeg" width="375px" alt="Foto 3 van test 2">
+
+<img src="readme-images/foto-1-4.jepg" width="375px" alt="Foto 4 van test 2">
+
+<img src="readme-images/foto-1-5.jpeg" width="375px" alt="Foto 5 van test 2">
+
 </details>
 
 
@@ -318,8 +332,16 @@ Voor sommige delen van de code heb ik mijn eigen aanpassingen en ideeën toegepa
 
 6. OpenAI. (z.d.). Kleine aanpassingen en efficiënt maken van code, verzorgd via *ChatGPT*.
 
-7. Icons8. (z.d.). *Search icon*. Geraadpleegd op 12 januari 2025, van [https://icons8.com/icons/set/search--static--black](https://icons8.com/icons/set/search--static--black)
+### Icons
+Icons8. (z.d.). *Black UI icons*. Geraadpleegd in november en december 2024, van [https://icons8.com/icons/collections/9fbzzth4y8icrag6enge--black](https://icons8.com/icons/collections/9fbzzth4y8icrag6enge--black)
 
-8. Icons8. (z.d.). *Hamburger menu icon*. Geraadpleegd op 12 januari 2025, van [https://icons8.com/icons/set/hamburger-menu--static--black](https://icons8.com/icons/set/hamburger-menu--static--black)
+### Video's
+1. Rijksoverheid. (2024). *Solliciteren voor een traineeship bij de Rijksoverheid?* [Video]. YouTube. Geraadpleegd op 12 december 2024, van [https://www.youtube.com/watch?v=RpICif-_Be8&t=1s](https://www.youtube.com/watch?v=RpICif-_Be8&t=1s)
+
+2. Rijksoverheid. (2024). *Aankondiging persconferentie in Nederlandse Gebarentaal*. [Video]. YouTube. Geraadpleegd op 12 december 2024, van [https://www.youtube.com/watch?v=fwOUZeHFSFk](https://www.youtube.com/watch?v=fwOUZeHFSFk)
+
+3. Rijksoverheid. (2024). *Integrale persconferentie Mark Rutte en Hugo de Jonge*. [Video]. YouTube. Geraadpleegd op 12 december 2024, van [https://www.youtube.com/watch?v=0nJFONxLJYo](https://www.youtube.com/watch?v=0nJFONxLJYo)
+
+4. Rijksoverheid. (2024). *PUUR rookvrij*. [Video]. YouTube. Geraadpleegd op 12 december 2024, van [https://www.youtube.com/watch?v=Ao9YWHytS8I](https://www.youtube.com/watch?v=Ao9YWHytS8I)
 
 </details>
