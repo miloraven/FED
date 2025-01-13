@@ -2,6 +2,8 @@
 /* CSS REMEDY */
 /**************/
 
+
+
 *, *::after, *::before{
   margin: 0;
   padding: 0;
@@ -80,6 +82,7 @@
   }
 }
 
+
 @font-face {
   font-family: 'Source Sans Pro';
   src: url('../fonts/source-sans-pro/SourceSansPro-Regular.otf') format('opentype');
@@ -99,7 +102,6 @@
 /****************/
 
 /* Algemeen */
-
 
 a:focus, button:focus, a:focus article, input:focus {
   outline: 5px dashed var(--rode-achtergrond);
