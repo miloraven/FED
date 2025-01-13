@@ -1,67 +1,45 @@
-// Selecteer de button en het menu
-const menuButton = document.querySelector("nav button");
-const menuList = document.querySelector("nav ul");
+// Variables (Data opslag)
+const menubutton = document.querySelector("header button");
+const hetmenu = document.querySelector("header nav");
+var carousel = document.querySelector('ul');
+var items = carousel.getElementsByTagName('li');
+var currentIndex = 0;
 
-// Toggle het menu wanneer op de knop wordt geklikt
-menuButton.addEventListener("click", function () {
-    const isExpanded = menuButton.getAttribute("aria-expanded") === "true";
-    
-    // Toggle aria-expanded
-    menuButton.setAttribute("aria-expanded", !isExpanded);
-    
-    // Toon of verberg het menu
-    if (!isExpanded) {
-        menuList.style.display = "flex";
-        menuList.style.flexDirection = "column"; // Zorg dat het verticaal blijft
-    } else {
-        menuList.style.display = "none";
+// Event Listener (Interactie)
+menubutton.onclick = togglemenu;
+
+// Function (Logica): Beheert menu openen/sluiten en verandert aria-expanded
+function togglemenu() {
+    hetmenu.classList.toggle("open");
+    const isExpanded = menubutton.getAttribute("aria-expanded") === "true";
+    menubutton.setAttribute("aria-expanded", !isExpanded);
+    // Zorgt ervoor dat het menu open/dicht gaat en aria-expanded wordt aangepast.
+}
+
+// Function (Logica): Wijzigt tekst in een specifieke sectie
+function showInfo(message) {
+    const info = document.querySelector('main section:nth-of-type(2) p');
+    info.textContent = message;
+    // Update tekst in een sectie.
+}
+
+// Function (Logica): Verplaatst carousel
+function updateCarousel(index) {
+    var offset = index * -100; // Berekening van offset
+    carousel.style.transform = 'translateX(' + offset + '%)';
+    carousel.style.transition = 'transform 0.5s ease'; 
+    // Beweegt carousel naar juiste item.
+}
+
+// Event Listener (Interactie): Toetsenbordnavigatie
+carousel.addEventListener('keydown', function (event) {
+    if (event.key === 'ArrowRight') {
+        currentIndex = (currentIndex + 1) % items.length; 
+        updateCarousel(currentIndex);
+        // Pijltje rechts: Volgend item.
+    } else if (event.key === 'ArrowLeft') {
+        currentIndex = (currentIndex - 1 + items.length) % items.length; 
+        updateCarousel(currentIndex);
+        // Pijltje links: Vorig item.
     }
-});
-
-
-
-
-
-
-// Controleer de voorkeur van het besturingssysteem en pas de modus toe
-function setThemeBasedOnOS() {
-    const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    
-    if (prefersDarkMode) {
-      document.documentElement.setAttribute('data-theme', 'dark');
-    } else {
-      document.documentElement.setAttribute('data-theme', 'light');
-    }
-  }
-  
-  // Initialiseer het thema bij het laden van de pagina
-  setThemeBasedOnOS();
-  
-  // Luister naar veranderingen in de voorkeuren van het besturingssysteem
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-    const newPrefersDarkMode = e.matches;
-    if (newPrefersDarkMode) {
-      document.documentElement.setAttribute('data-theme', 'dark');
-    } else {
-      document.documentElement.setAttribute('data-theme', 'light');
-    }
-  });
-
-
-
-
-
-  
-// Selecteer de textarea en de karakterteller
-const textarea = document.getElementById('feedback-input');
-const charCounter = document.getElementById('letter-teller');
-
-// Voeg een event listener toe aan de textarea
-textarea.addEventListener('input', () => {
-    const maxLength = textarea.getAttribute('maxlength');
-    const currentLength = textarea.value.length;
-    const remaining = maxLength - currentLength;
-
-    // Update de tekst van de karakterteller
-    charCounter.textContent = `${remaining} karakters over`;
 });

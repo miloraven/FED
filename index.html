@@ -6,36 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rijksoverheid</title>
     <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/style1.css" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="images/favicon.png">
 </head>
 <body>
     <header>
         <section>
-            <p>!! Dit is niet de officiële overheidswebsite !!</p>
+            <p>Let op: Dit is niet de officiële overheidswebsite</p>
         </section>
         <section>
             <h1>De Rijksoverheid</h1>
             <img src="images/logo-van-rijksoverheid.png" alt="Logo van de Rijksoverheid">
         </section>
         <section>
-            <nav aria-label="Dit is het hoofdmenu">
-                <a href="#">Home</a>
-                <button aria-label="menu" aria-expanded="false">
-                    <img src="https://assets.codepen.io/274456/ui-icon-hamburger.svg" aria-hidden="true" />
-                </button>
+            <a href="">Home</a>
+            <button aria-expanded="false"><img src="images/hamburger.png" alt="Hamburgericon"></button>
+            <nav>
                 <ul>
-                    <li><a href="#">Actueel</a></li>
-                    <li><a href="#">Onderwerpen</a></li>
-                    <li><a href="#">Ministeries</a></li>
-                    <li><a href="#">Regering</a></li>
-                    <li><a href="#">Documenten</a></li>
+                    <li><a href="">Actueel</a></li>
+                    <li><a href="">Onderwerpen</a></li>
+                    <li><a href="">Ministeries</a></li>
+                    <li><a href="">Regering</a></li>
+                    <li><a href="">Documenten</a></li>
                 </ul>
             </nav>
-        </section>
-        <section>
-            <form aria-label="Dit is de zoekfunctie">
-                <input type="text" placeholder="Zoeken">
-                <button type="submit">🔍</button>
+            <form>
+                <label>
+                    <input type="search" placeholder="Zoeken">
+                </label>
+                <button type="submit"><img src="images/search-icon.png" alt="Search icon"></button>
             </form>
         </section>
     </header>
@@ -43,15 +42,16 @@
         <section>
             <div>
                 <h2>Veel bekeken</h2>
-                <ul>
-                    <li><a href="">› Bedragen kinderopvangtoeslag 2025</a></li>
-                    <li><a href="">› Bedragen minimumloon 2025</a></li>
-                    <li><a href="">› Officiële feestdagen</a></li>
-                    <li><a href="">› Voorkom schijnzelfstandigheid: check het contract</a></li>
-                </ul>
+                <nav>
+                    <ul>
+                        <li><a href=""><img src="images/blauwe-direct-naar.png" alt="Blauwe pijl die naar rechts wijst">Bedragen kinderopvangtoeslag 2025</a></li>
+                        <li><a href=""><img src="images/blauwe-direct-naar.png" alt="Blauwe pijl die naar rechts wijst">Bedragen minimumloon 2025</a></li>
+                        <li><a href=""><img src="images/blauwe-direct-naar.png" alt="Blauwe pijl die naar rechts wijst">Officiële feestdagen</a></li>
+                        <li><a href=""><img src="images/blauwe-direct-naar.png" alt="Blauwe pijl die naar rechts wijst">Voorkom schijnzelfstandigheid: check het contract</a></li>
+                    </ul>
+                </nav>
             </div>
         </section>
-        
         <section>
             <h2 class="visually-hidden">Hier vind je informatie over verschillende onderwerpen.</h2>
             <ul>
@@ -169,7 +169,7 @@
                     <a href="">
                         <article>
                             <img src="images/foto-2-wasmachine.jpg" alt="Foto van twee personen bij een wasmachine">
-                            <h3>↗ Bewuster omgaan met energie</h3>
+                            <h3><img src="images/pijl-rechts-boven.png" alt="Pijl die naar rechtsboven wijst">Bewuster omgaan met energie</h3>
                             <p>Kies slim wanneer u energie gebruikt, bekijk bespaartips en krijg inzicht in piekmomenten.</p>
                         </article>
                     </a>
@@ -178,7 +178,7 @@
                     <a href="">
                         <article>
                             <img src="images/foto-3-noodpakket.jpg" alt="Foto van een kast met noodvoedsel">
-                            <h3>↗ Stel je noodpakket samen</h3>
+                            <h3>Stel je noodpakket samen</h3>
                             <p>Een noodpakket samenstellen is makkelijk. Bekijk hoe u een noodpakket samenstelt.</p>
                         </article>
                     </a>
@@ -243,7 +243,7 @@
                     </a>
                 </li>
             </ul>
-            <a href="">› Meer nieuws</a>
+            <a href="">Meer nieuws</a>
         </section>
         <section>
             <ul>
@@ -276,43 +276,35 @@
         <section>
             <div>
                 <h3>Service</h3>
-                <nav aria-label="Dit zijn de 'service' links in de footer">
+                <nav>
                     <ul>
-                        <li><a href="#">› Contact</a></li>
-                        <li><a href="#">› Abonneren</a></li>
-                        <li><a href="#">› RSS</a></li>
-                        <li><a href="#">› Vacatures</a></li>
-                        <li><a href="#">› Sitemap</a></li>
-                        <li><a href="#">› Help</a></li>
-                        <li><a href="#">› Archief</a></li>
+                        <li><a href="#"><img src="images/witte-direct-naar.png" alt="Pijl die naar rechts wijst">Contact</a></li>
+                        <li><a href="#"><img src="images/witte-direct-naar.png" alt="Pijl die naar rechts wijst">Abonneren</a></li>
+                        <li><a href="#"><img src="images/witte-direct-naar.png" alt="Pijl die naar rechts wijst">RSS</a></li>
+                        <li><a href="#"><img src="images/witte-direct-naar.png" alt="Pijl die naar rechts wijst">Vacatures</a></li>
+                        <li><a href="#"><img src="images/witte-direct-naar.png" alt="Pijl die naar rechts wijst">Sitemap</a></li>
+                        <li><a href="#"><img src="images/witte-direct-naar.png" alt="Pijl die naar rechts wijst">Help</a></li>
+                        <li><a href="#"><img src="images/witte-direct-naar.png" alt="Pijl die naar rechts wijst">Archief</a></li>
                     </ul>
                 </nav>
             </div>
             <div>
                 <h3>Over deze site</h3>
-                <nav aria-label="Dit zijn de 'Over deze site' links in de footer">
+                <nav>
                     <ul>
-                        <li><a href="#">› Over Rijksoverheid.nl</a></li>
-                        <li><a href="#">› Wetten en regelingen</a></li>
-                        <li><a href="#">› Copyright</a></li>
-                        <li><a href="#">› Privacy</a></li>
-                        <li><a href="#">› Cookies</a></li>
-                        <li><a href="#">› Toegankelijkheid</a></li>
-                        <li><a href="#">› Open data</a></li>
-                        <li><a href="#">› Kwetsbaarheid melden</a></li>
+                        <li><a href="#"><img src="images/witte-direct-naar.png" alt="Pijl die naar rechts wijst">Over Rijksoverheid.nl</a></li>
+                        <li><a href="#"><img src="images/witte-direct-naar.png" alt="Pijl die naar rechts wijst">Wetten en regelingen</a></li>
+                        <li><a href="#"><img src="images/witte-direct-naar.png" alt="Pijl die naar rechts wijst">Copyright</a></li>
+                        <li><a href="#"><img src="images/witte-direct-naar.png" alt="Pijl die naar rechts wijst">Privacy</a></li>
+                        <li><a href="#"><img src="images/witte-direct-naar.png" alt="Pijl die naar rechts wijst">Cookies</a></li>
+                        <li><a href="#"><img src="images/witte-direct-naar.png" alt="Pijl die naar rechts wijst">Toegankelijkheid</a></li>
+                        <li><a href="#"><img src="images/witte-direct-naar.png" alt="Pijl die naar rechts wijst">Open data</a></li>
+                        <li><a href="#"><img src="images/witte-direct-naar.png" alt="Pijl die naar rechts wijst">Kwetsbaarheid melden</a></li>
                     </ul>
                 </nav>
             </div>
-        </section>
-        <section aria-label="Feedback blokje">
-            <label for="feedback-input">Geef uw feedback (maximaal 200 karakters):</label>
-            <textarea id="feedback-input" maxlength="200" rows="4" cols="50" aria-describedby="letter-teller"></textarea>
-            <p id="letter-teller" aria-live="polite">
-                200 karakters over
-            </p>
-            <button>Verstuur</button>
-        </section>        
-        <section aria-label="Talenopties">
+        </section>       
+        <section>
             <p>Deze website in andere talen:</p>
             <ul>
                 <li><button>Nederlands</button></li>

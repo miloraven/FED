@@ -1,0 +1,257 @@
+/* veel bekeken */
+main section:nth-of-type(1) {
+  background-image: url('../images/achtergrondinformatie.png');
+  background-size:cover;
+  
+  padding:2em;
+  
+  display:flex;
+}
+
+/* ministers */
+.parent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  background-color: var(--grijze-achtergrond);
+}
+
+.parent li:nth-child(1) {
+  grid-area: 1 / 1 / 4 / 4; 
+}
+
+.parent li:nth-child(2) {
+  grid-area: 1 / 4 / 3 / 6;
+}
+
+.parent li:nth-child(3) {
+  grid-area: 3 / 4 / 4 / 5; 
+}
+
+.parent li:nth-child(4) {
+  grid-area: 3 / 5 / 4 / 6; 
+}
+
+.parent li:nth-child(5) {
+  grid-area: 3 / 6 / 4 / 7;
+}
+
+.parent li:nth-child(6) {
+  grid-area: 2 / 6 / 3 / 7; 
+}
+
+.parent li:nth-child(7) {
+  grid-area: 1 / 6 / 2 / 7;
+}
+
+.parent li {
+  display: flex;
+}
+
+.parent li img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* Zorgt voor een responsieve afbeelding */
+main section:nth-of-type(2) img {
+  width: 90%;
+  height: auto;
+}
+
+/* Positioneer de knoppen over de afbeelding */
+main section:nth-of-type(2) {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+  margin: 2.5em;
+}
+
+/* Standaard styling voor de knoppen */
+main section:nth-of-type(2) button {
+  position: absolute;
+  padding: 0.5em;
+  border: none;
+  background-color: var(--grijze-achtergrond);
+  font-size: 0.65rem;
+  font-weight: bold;
+  color: var(--zwarte-text);
+}
+
+main section:nth-of-type(2) p{
+  font-size: 1rem;
+  color:  var(--zwarte-text);
+}
+
+/* Specifieke posities voor de knoppen */
+main section:nth-of-type(2) button:nth-of-type(3) {
+  top: 80%;
+  left: 55%;
+}
+
+main section:nth-of-type(2) button:nth-of-type(1) {
+  top: 20%;
+  left: 26%;
+}
+
+main section:nth-of-type(2) button:nth-of-type(2) {
+  top: 65%;
+  left: 72%;
+}
+
+
+/* carousel */
+main ul:nth-of-type(2) {
+  display: flex;
+  overflow-x: auto;
+  gap: 1em;
+  padding: 1em;
+  list-style: none;
+}
+
+main ul:nth-of-type(2) iframe {
+  width: 25em;
+  height: 14em;
+  border: none;
+}
+
+
+@media (min-width: 575px){
+  main section:nth-of-type(3) ul, 
+  main section:nth-of-type(4) ul, main section:nth-of-type(5) ul{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 740px){
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  footer section:nth-of-type(1),
+  footer section:nth-of-type(2) {
+    flex: 1 1 50%;
+  }
+
+  :root{
+    font-size: 110%;
+  }
+
+  header section:nth-of-type(2) nav button {
+    display: none;
+  }
+
+
+  header section:nth-of-type(2) img {
+    width: 3em;
+  }
+
+  header section:nth-of-type(2) h1{
+    font-size: 110%;
+  }
+
+  header section:nth-of-type(3) {
+        position:relative;	
+    }
+    
+    header section:nth-of-type(3) > button:first-of-type {
+        display:none;	
+    }
+    
+    header section:nth-of-type(3) nav {
+        position:static;
+    }
+    
+    header section:nth-of-type(3) nav ul {
+        margin:0;
+        padding:0;
+        list-style-type:"";
+        display:flex;
+    flex-wrap: wrap;
+        gap:1em;
+    }
+
+  header section:nth-of-type(3) nav li:hover{
+    text-decoration: underline solid var(--witte-achtergrond);
+
+  }
+    
+    header section:nth-of-type(3) form {
+        position:absolute;
+        right:1em;
+
+        top: calc(100% + 1em);
+        width:min(30vw, 18em);
+    }
+    
+    main section:nth-of-type(2) img{
+      width: 80%;
+    }
+    
+    main section:nth-of-type(2) button:nth-of-type(2) {
+      left: 70%;
+  }
+}
+
+@media (min-width: 992px){
+  main section:nth-of-type(3) ul,
+  main section:nth-of-type(4) ul{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  main section:nth-of-type(5) ul{
+    margin-right: 40%;
+  }
+
+  :root{
+    font-size: 115%;
+  }
+
+  main section:nth-of-type(2) img{
+    width: 70%;
+  }
+
+  main section:nth-of-type(2) button:nth-of-type(2) {
+    left: 67%;
+}
+
+main ul:nth-of-type(2) iframe {
+  width: 35em;
+  height: 20em;
+}
+}
+
+@media (min-width: 1200px){
+  header section:nth-child(n+3):nth-child(-n+4),
+  main section:nth-of-type(3), main section:nth-of-type(4), main section:nth-of-type(5),
+  footer section:nth-child(-n+2), footer section:last-child, footer section:nth-of-type(3){  
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header form{
+  margin-right: 10%;
+}
+
+main section:first-child div{
+  margin-left: 10%;
+}
+}
+
+@media (min-width: 1600px){
+  :root{
+    font-size: 150%;
+  } 
+}
+
