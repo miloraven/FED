@@ -239,7 +239,7 @@ Ik heb de WCAG-checklist ook ingevuld. Veel viel er niet te verbeteren aan de we
 
 <img src="readme-images/foto-1-3.jpeg" width="375px" alt="Foto 3 van test 2">
 
-<img src="readme-images/foto-1-4.jepg" width="375px" alt="Foto 4 van test 2">
+<img src="readme-images/foto-1-4.jpeg" width="375px" alt="Foto 4 van test 2">
 
 <img src="readme-images/foto-1-5.jpeg" width="375px" alt="Foto 5 van test 2">
 
