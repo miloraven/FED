@@ -1,45 +1,50 @@
-// Variables (Data opslag)
+// =========================
+// 1. VARIABLES (Data opslag)
+// =========================
 const menubutton = document.querySelector("header button");
 const hetmenu = document.querySelector("header nav");
-var carousel = document.querySelector('ul');
-var items = carousel.getElementsByTagName('li');
-var currentIndex = 0;
+const carousel = document.querySelector("ul");
+const items = carousel.getElementsByTagName("li");
+let currentIndex = 0;
 
-// Event Listener (Interactie)
-menubutton.onclick = togglemenu;
+// =========================
+// 2. FUNCTIONS (Logica)
+// =========================
 
-// Function (Logica): Beheert menu openen/sluiten en verandert aria-expanded
+// Beheert menu openen/sluiten en verandert aria-expanded
 function togglemenu() {
     hetmenu.classList.toggle("open");
     const isExpanded = menubutton.getAttribute("aria-expanded") === "true";
     menubutton.setAttribute("aria-expanded", !isExpanded);
-    // Zorgt ervoor dat het menu open/dicht gaat en aria-expanded wordt aangepast.
 }
 
-// Function (Logica): Wijzigt tekst in een specifieke sectie
+// Wijzigt tekst in een specifieke sectie
 function showInfo(message) {
-    const info = document.querySelector('main section:nth-of-type(2) p');
+    const info = document.querySelector("main section:nth-of-type(2) p");
     info.textContent = message;
-    // Update tekst in een sectie.
 }
 
-// Function (Logica): Verplaatst carousel
+// Verplaatst carousel naar het juiste item
 function updateCarousel(index) {
-    var offset = index * -100; // Berekening van offset
-    carousel.style.transform = 'translateX(' + offset + '%)';
-    carousel.style.transition = 'transform 0.5s ease'; 
-    // Beweegt carousel naar juiste item.
+    const offset = index * -100; // Berekening van de verschuiving in procenten
+    carousel.style.transform = `translateX(${offset}%)`;
+    carousel.style.transition = "transform 0.5s ease";
 }
 
-// Event Listener (Interactie): Toetsenbordnavigatie
-carousel.addEventListener('keydown', function (event) {
-    if (event.key === 'ArrowRight') {
-        currentIndex = (currentIndex + 1) % items.length; 
+// =========================
+// 3. EVENT LISTENERS (Interactie)
+// =========================
+
+// Menu-knop klikgedrag
+menubutton.addEventListener("click", togglemenu);
+
+// Toetsenbordnavigatie voor de carousel
+carousel.addEventListener("keydown", function (event) {
+    if (event.key === "ArrowRight") {
+        currentIndex = (currentIndex + 1) % items.length; // Volgend item
         updateCarousel(currentIndex);
-        // Pijltje rechts: Volgend item.
-    } else if (event.key === 'ArrowLeft') {
-        currentIndex = (currentIndex - 1 + items.length) % items.length; 
+    } else if (event.key === "ArrowLeft") {
+        currentIndex = (currentIndex - 1 + items.length) % items.length; // Vorig item
         updateCarousel(currentIndex);
-        // Pijltje links: Vorig item.
     }
 });

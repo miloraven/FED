@@ -294,23 +294,44 @@ dafdsfadsf
 ## Eindgesprek (week 5)
 
 <details>
-  <summary>uitwerken voor eindgesprek</summary>
+  <summary>Bekijk hier mijn voorbereiding en reflectie op het eindgesprek</summary>
 
-  ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  Dat waren me nog een paar weken van veel stress en nachtsessies. Uiteindelijk ben ik heel erg trots op het resultaat en kun je zien dat de website bijna identiek is.
 
+  ### Je uitkomst - karakteristieke screenshots:
+  <img src="readme-images/mijn-website.png" width="375px" alt="Mijn website">
+  <img src="readme-images/rijksoverheid-website.png" width="375px" alt="Rijksoverheid website">
+
+  Ook ben ik heel blij dat de website verbeterd is. Ik heb een gloednieuwe pagina toegevoegd en een dark mode gemaakt. Het was best moeilijk om de site beter te maken, aangezien de Rijksoverheid-website alles al goed geregeld had. Uiteindelijk is het me gelukt om een dark mode toe te voegen en de navigatie makkelijker te maken voor iedereen.
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Eigenlijk ging alles heel goed en heb ik veel geleerd. Ik heb ontzettend veel uren gemaakt en ben flink vooruitgegaan ten opzichte van vorig jaar. Toen werkten we nooit met grid en kon ik wel wat coderen, maar niet echt goed. Nu heb ik het gevoel dat ik het echt een beetje gemasterd heb. Gestructureerd te werk gaan met een goede voorbereiding en alles goed sorteren zorgt echt voor een hele fijne workflow binnen Visual Studio Code. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/custom-properties.png" width="375px" alt="Custom properties">
+  <img src="readme-images/dark-mode.png" width="375px" alt="Dark mode">
 
+  Hele toffe dingen vind ik bijvoorbeeld het gebruik van custom properties voor consistentie, maar ook dat je daarmee heel makkelijk een dark mode kan maken. Ook vond ik het geweldig om met grid te werken. Dat is echt iets wat we nog niet eerder hebben gedaan en het maakt coderen zoveel makkelijker.
 
-  ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  <img src="readme-images/responsive-grid-1.png" width="375px" alt="Grid voorbeeld 1">
+  <img src="readme-images/responsive-grid-2.png" width="375px" alt="Grid voorbeeld 2">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Daarnaast vond ik het heel leerzaam om te ontdekken hoe je zo min mogelijk classes maakt door slim de HTML-structuur te volgen. Dit maakt je ook meteen beter in CSS!
+
+  <img src="readme-images/zonder-classes.png" width="375px" alt="CSS zonder extra classes">
+
+  ### Dit was lastig/Is niet gelukt: 
+  Ik ben wel echt tegen een aantal dingen aangelopen. Zo waren er veel momenten dat de code niet werkte of niet het juiste werd aangesproken. Gelukkig bleef ik doorzetten en kwam het uiteindelijk goed. 
+
+  Een voorbeeld van iets moeilijks was het gebruik van sections. Ik had bij Berry geleerd dat je redelijk wat sections kunt gebruiken, maar in mijn project bleek dat vaak niet nodig. Toen ik dit ontdekte, had ik al mijn CSS en JavaScript al geschreven. Dit aanpassen was echt heel frustrerend, maar op veel plekken is het uiteindelijk wel gelukt. Dit neem ik mee als leerpunt voor toekomstige projecten.
+
+  <img src="readme-images/minder-sections.png" width="375px" alt="Voorbeeld minder sections">
+
+  Ook vond ik het lastig om de juiste HTML-tags te gebruiken. Soms was bijvoorbeeld een heading nodig of moest ik een time-element gebruiken. Dit weet ik nu beter voor de volgende keer en ga ik ook zeker meenemen.
+
+  <img src="readme-images/html-label.png" width="375px" alt="HTML voorbeeld">
+
 </details>
+
 
 ## Bronnenlijst
 
