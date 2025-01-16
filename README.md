@@ -289,7 +289,17 @@ Ik heb de WCAG-checklist ook ingevuld. Veel viel er niet te verbeteren aan de we
 
 ## Aangepaste breakdownschetsen van beide pagina's
 
-dafdsfadsf
+<details>
+
+<summary>Klik hier om mijn aagepaste breakdownschetsen te bekijken</summary>
+
+De breakdown van de twee pagina's:
+
+<img src="readme-images/breakdownschets-2-1.jpg.jpg" width="375px" alt="Breakdownschets 2 van de homepagina van de Rijksoverheid">
+
+<img src="readme-images/breakdownschets-2-2.jpg.jpg" width="375px" alt="Breakdownschets 2 van de tweede pagina van de Rijksoverheid">
+
+</details>
 
 ## Eindgesprek (week 5)
 
