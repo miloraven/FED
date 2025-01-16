@@ -295,9 +295,9 @@ Ik heb de WCAG-checklist ook ingevuld. Veel viel er niet te verbeteren aan de we
 
 De breakdown van de twee pagina's:
 
-<img src="readme-images/breakdownschets-2-1.jpg.jpg" width="375px" alt="Breakdownschets 2 van de homepagina van de Rijksoverheid">
+<img src="readme-images/breakdownschets-2-1.jpg" width="375px" alt="Breakdownschets 1 van de homepagina van de Rijksoverheid">
 
-<img src="readme-images/breakdownschets-2-2.jpg.jpg" width="375px" alt="Breakdownschets 2 van de tweede pagina van de Rijksoverheid">
+<img src="readme-images/breakdownschets-2-2.jpg" width="375px" alt="Breakdownschets 2 van de tweede pagina van de Rijksoverheid">
 
 </details>
 
