@@ -84,31 +84,79 @@ main section:nth-of-type(2) p {
   color: var(--zwarte-text);
 }
 
-/* Knoppen Styling */
 main section:nth-of-type(2) button {
   position: absolute;
   padding: 0.5em;
   border: none;
-  background-color: var(--grijze-achtergrond);
+  background-color: var(--button-wit);
   font-size: 0.50rem;
   font-weight: bold;
-  color: var(--zwarte-text);
+  color: black;
 }
 
-/* Knoppen Posities */
 main section:nth-of-type(2) button:nth-of-type(1) {
-  top: 20%;
-  left: 26%;
+  top: 13%;
+  left: 20%;
 }
 
 main section:nth-of-type(2) button:nth-of-type(2) {
-  top: 65%;
-  left: 72%;
+  top: 50%;
+  left: 58%;
 }
 
 main section:nth-of-type(2) button:nth-of-type(3) {
-  top: 76%;
-  left: 55%;
+  top: 70%;
+  left: 45%;
+}
+
+main section:nth-of-type(2) button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  width: 10em;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 0.60rem;
+}
+
+main section:nth-of-type(2) button img {
+  width: 15%;
+  height: 25%;
+}
+
+@keyframes wiebel {
+  0%, 100% {
+      transform: rotate(0);
+  }
+  25% {
+      transform: rotate(10deg);
+  }
+  50% {
+      transform: rotate(-10deg);
+  }
+  75% {
+      transform: rotate(5deg);
+  }
+}
+
+main section:nth-of-type(2) button img.beweging {
+  animation: wiebel 1s ease;
+}
+
+main section:nth-of-type(2) p.animatie {
+  opacity: 1;
+  transition: opacity 1s ease, color 1s ease;
+}
+
+main section:nth-of-type(2) p.animatie.visible {
+  opacity: 1;
+  color: var(--zwarte-text);
+}
+
+main section:nth-of-type(2) p.animatie.hidden {
+  opacity: 0;
 }
 
 /******************/
@@ -140,6 +188,20 @@ main ul:nth-of-type(2) iframe {
   main section:nth-of-type(5) ul {
     grid-template-columns: 1fr 1fr;
   }
+
+  main section:nth-of-type(2) button:nth-of-type(1) {
+    top: 15%;
+  }
+
+  main section:nth-of-type(2) button:nth-of-type(2) {
+    top: 55%;
+  }
+
+  main section:nth-of-type(2) button:nth-of-type(3) {
+    top: 81%;
+    left: 60%;
+  }
+  
 }
 
 /* Schermbreedte ≥ 740px */
@@ -201,13 +263,20 @@ main ul:nth-of-type(2) iframe {
   main section:nth-of-type(2) img {
     width: 80%;
   }
+  
+  main section:nth-of-type(2) button:nth-of-type(1) {
+    top: 15%;
+    left: 30%;
+  }
 
   main section:nth-of-type(2) button:nth-of-type(2) {
-    left: 70%;
+    left: 65%;
+
   }
 
   main section:nth-of-type(2) button:nth-of-type(3) {
     top: 80%;
+    left: 55%;
   }
 }
 
@@ -234,6 +303,15 @@ main ul:nth-of-type(2) iframe {
     width: 35em;
     height: 20em;
   }
+  main section:nth-of-type(2) button:nth-of-type(3) {
+    top: 82%;
+    left: 55%;
+  }
+  main section:nth-of-type(2) button img {
+    width: 25%;
+    height: 35%;
+  }
+
 }
 
 /* Schermbreedte ≥ 1200px */

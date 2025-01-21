@@ -73,6 +73,10 @@
     --button-text-blauw: #0E3349;
     --button-text-zwart: #000000;
     --placeholder: #3B3B3B;
+    --primary-font: 'Source Sans Pro', sans-serif;
+  --font-size: 16px;
+  --line-height: 1.5;
+  font-size: 100%;
   }
 
   main section:nth-of-type(1) ul img,
@@ -85,6 +89,66 @@
   }
 }
 
+[data-theme="light"] {
+  --blauwe-text: #03679b;
+  --blauwe-achtergrond: #03679b;
+  --donkere-text: #02496d;
+  --roze-text: #AE1667;
+  --witte-text: #FFFFFF;
+  --zwarte-text: #000000;
+  --witte-achtergrond: #FFFFFF;
+  --grijze-achtergrond: #F3F3F3;
+  --rode-achtergrond: #D10000;
+  --grijze-band: #CAD2E2;
+  --button-lichtblauw: #D9E7F0;
+  --button-donkerblauw: #2596be;
+  --button-wit: #FFFFFF;
+  --button-text-blauw: #1A5E84;
+  --button-text-zwart: #000000;
+  --placeholder: #757575;
+}
+
+[data-theme="dark"] {
+  --blauwe-text: #AAD4EE;
+  --blauwe-achtergrond: #064E75;
+  --donkere-text: #D3DFE9;
+  --roze-text: #F8BFDD;
+  --witte-text: #F2F2F2;
+  --zwarte-text: #F2F2F2;
+  --grijze-band: #CAD2E2;
+  --witte-achtergrond: #3B3B3B;
+  --grijze-achtergrond: #3B3B3B;
+  --rode-achtergrond: #A30000;
+  --button-lichtblauw: #D9E7F0;
+  --button-donkerblauw: #2596be;
+  --button-wit: #bdbdbd;
+  --button-text-blauw: #0E3349;
+  --button-text-zwart: #000000;
+  --placeholder: #3B3B3B;
+}
+
+[data-theme="high-contrast"] {
+  --blauwe-text: #024064;
+  --blauwe-achtergrond: #034568;
+  --donkere-text: #02496d;
+  --roze-text: #7C0E49;
+  --witte-text: #FFFFFF;
+  --zwarte-text: #000000;
+  --witte-achtergrond: #FFFFFF;
+  --grijze-achtergrond: #FFFFFF;
+  --rode-achtergrond: #850000;
+  --grijze-band: #CAD2E2;
+  --button-lichtblauw: #034568;
+  --button-donkerblauw: #034568;
+  --button-wit: #FFFFFF;
+  --button-text-blauw: #034568;
+  --button-text-zwart: #FFFFFF;
+  --placeholder: #404040;
+}
+
+
+
+
 /***********/
 /* STYLING */
 /***********/
@@ -96,11 +160,16 @@
 /* Focus Styles */
 a:focus,
 button:focus,
-a:focus article,
 input:focus {
   outline: 5px dashed var(--rode-achtergrond);
   outline-offset: 5px;
+  border-radius: 5%;
 }
+
+main section:nth-of-type(5) ul li a:focus {
+  display: inline-block;
+}
+
 
 /* Body Styling */
 body {
@@ -320,12 +389,13 @@ footer section:nth-child(-n+2) {
 }
 
 /* Service Slogan */
-footer section:first-child {
+footer section:first-child h3 {
   font-family: 'Times New Roman', Times, serif;
   color: var(--witte-text);
   font-size: 1.5rem;
   font-style: italic;
   padding-top: 2.5rem;
+  font-weight: 100;
 }
 
 /* Service en Links */
@@ -379,13 +449,11 @@ footer section:last-child {
   gap: 0.75rem;
 }
 
-/* Footer Tekst */
 footer section:last-child p {
   font-size: 1rem;
   color: var(--zwarte-text);
 }
 
-/* Footer Button Stijlen */
 footer section:last-child ul {
   display: flex;
   flex-wrap: wrap;
@@ -404,14 +472,15 @@ footer section:last-child button {
   cursor: pointer;
 }
 
-footer section:last-child button:hover,
-footer section:last-of-type li:first-of-type button:hover {
+/* Hover effect */
+footer section:last-child button:hover {
   color: var(--button-text-zwart);
   background-color: var(--button-donkerblauw);
 }
 
-/* Speciale Knop Stijl */
-footer section:last-of-type li:first-of-type button {
+/* Focus effect when button is clicked */
+footer section:last-child button:focus {
   background-color: var(--button-lichtblauw);
-  font-weight: bold;
+  color: var(--button-text-zwart);
 }
+
