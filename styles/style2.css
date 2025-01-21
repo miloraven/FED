@@ -17,48 +17,47 @@ main section:nth-of-type(1) {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "item1 item1 item1 item2 item2 item7"
+    "item1 item1 item1 item2 item2 item6"
+    "item1 item1 item1 item3 item4 item5";
   list-style: none;
   width: 80%;
   margin: 3em auto;
   background-color: var(--grijze-achtergrond);
 }
 
-.parent li {
-  display: flex;
+.parent li:nth-child(1) {
+  grid-area: item1;
+}
+
+.parent li:nth-child(2) {
+  grid-area: item2;
+}
+
+.parent li:nth-child(3) {
+  grid-area: item3;
+}
+
+.parent li:nth-child(4) {
+  grid-area: item4;
+}
+
+.parent li:nth-child(5) {
+  grid-area: item5;
+}
+
+.parent li:nth-child(6) {
+  grid-area: item6;
+}
+
+.parent li:nth-child(7) {
+  grid-area: item7;
 }
 
 .parent li img {
   width: 100%;
-  height: auto;
-}
-
-/* Grid Posities */
-.parent li:nth-child(1) {
-  grid-area: 1 / 1 / 4 / 4;
-}
-
-.parent li:nth-child(2) {
-  grid-area: 1 / 4 / 3 / 6;
-}
-
-.parent li:nth-child(3) {
-  grid-area: 3 / 4 / 4 / 5;
-}
-
-.parent li:nth-child(4) {
-  grid-area: 3 / 5 / 4 / 6;
-}
-
-.parent li:nth-child(5) {
-  grid-area: 3 / 6 / 4 / 7;
-}
-
-.parent li:nth-child(6) {
-  grid-area: 2 / 6 / 3 / 7;
-}
-
-.parent li:nth-child(7) {
-  grid-area: 1 / 6 / 2 / 7;
+  height: 100%;
 }
 
 /**********************/
